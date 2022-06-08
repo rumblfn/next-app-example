@@ -1,0 +1,32 @@
+.layout-header {
+    background-color: #264653;
+    color: #f4a261;
+    font-size: 30px;
+    padding: 30px;
+    display: flex;
+    gap: 16px;
+    justify-content: space-between;
+}
+
+.layout-header > div {
+    display: flex;
+    gap: 16px;
+}
+
+.layout-footer {
+    background-color: #264653;
+    color: #e9c46a;
+    font-size: 30px;
+    text-align: center;
+    padding: 20px;
+}
+
+.app {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.app-top {
+    flex-grow: 1;
+}
