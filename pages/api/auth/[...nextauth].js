@@ -2,7 +2,7 @@ import NextAuth from "next-auth/next";
 import GitHubProvider from "next-auth/providers/github";
 
 export default NextAuth({
-    site: "https://next-app-example-bay.vercel.app/",
+    site: process.env.CLIENT_URL,
     providers: [
         GitHubProvider({
             clientId: process.env.GITHUB_ID,
