@@ -44,7 +44,7 @@ export async function getServerSideProps(context) {
     if (!session) {
         return {
             redirect: {
-                destination: `/api/auth/signin?callbackUrl=${process.env.CLIENT_URL}/blog`,
+                destination: `/api/auth/signin?callbackUrl=https://next-app-example-bay.vercel.app/blog`,
                 permanent: false
             }
         }
