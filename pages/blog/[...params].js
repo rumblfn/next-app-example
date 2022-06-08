@@ -1,7 +1,7 @@
 const Trash = () => {
     return (
         <div>
-            Trash
+            Empty Trash
         </div>
     )
 }
